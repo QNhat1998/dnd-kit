@@ -1,5 +1,6 @@
 import BasicDraggable from "./basic-draggable";
 import BasicDrop from "./basic-drop";
+import HandlePressDelay from "./handle-press-delay";
 
 export const CORE_EXAMPLES = [
   {
@@ -13,5 +14,11 @@ export const CORE_EXAMPLES = [
     title: "Basic Drop",
     description: "useDraggable + useDroppable + onDragEnd (core)",
     component: BasicDrop,
+  },
+  {
+    key: "handle-press-delay",
+    title: "Handle + Press Delay",
+    description: "Chỉ kéo từ handle + giữ 200ms mới kéo (core)",
+    component: HandlePressDelay,
   },
 ];

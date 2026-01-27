@@ -1,6 +1,7 @@
 import BasicDraggable from "./basic-draggable";
 import BasicDrop from "./basic-drop";
 import HandlePressDelay from "./handle-press-delay";
+import PressDelayVisualCueExample from "./press-delay-visual-cue";
 
 export const CORE_EXAMPLES = [
   {
@@ -20,5 +21,11 @@ export const CORE_EXAMPLES = [
     title: "Handle + Press Delay",
     description: "Chỉ kéo từ handle + giữ 200ms mới kéo (core)",
     component: HandlePressDelay,
+  },
+  {
+    key: "press-delay-visual-cue",
+    title: "Press Delay + Visual Cue",
+    description: "Nhấn giữ để hiện progress; đủ thời gian mới kéo được (core)",
+    component: PressDelayVisualCueExample,
   },
 ];

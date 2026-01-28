@@ -1,7 +1,9 @@
 import BasicDraggable from "./basic-draggable";
 import BasicDrop from "./basic-drop";
 import HandlePressDelay from "./handle-press-delay";
+import HorizontalDragExample from './horizontal-drag'
 import PressDelayVisualCueExample from "./press-delay-visual-cue";
+import VerticalDragExample from "./vertical-drag";
 
 export const CORE_EXAMPLES = [
   {
@@ -27,5 +29,17 @@ export const CORE_EXAMPLES = [
     title: "Press Delay + Visual Cue",
     description: "Nhấn giữ để hiện progress; đủ thời gian mới kéo được (core)",
     component: PressDelayVisualCueExample,
+  },
+  {
+    key: "vertical-drag",
+    title: "Vertical Drag",
+    description: "Chỉ kéo theo trục Y (core)",
+    component: VerticalDragExample,
+  },
+    {
+    key: "horizontal-drag",
+    title: "Horizontal Drag",
+    description: "Chỉ kéo theo trục X (core)",
+    component: HorizontalDragExample,
   },
 ];
